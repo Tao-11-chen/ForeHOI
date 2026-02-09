@@ -1,7 +1,7 @@
 <div align="center">
 
 # ForeHOI: Feed-forward 3D Object Reconstruction from Daily Hand-Object Interaction Videos
-<a href="" target="_blank">
+<a href="https://arxiv.org/abs/2602.06226" target="_blank">
   <img src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white" alt="arXiv">
 </a>
 <a href="https://tao-11-chen.github.io/project_pages/ForeHOI/" target="_blank">
