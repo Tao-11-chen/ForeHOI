@@ -10,6 +10,8 @@
 
 </div>
 
+![teaser](assets/Teaser.png)
+
 ## Abstract
 
 We introduce ForeHOI, the first feed-forward 3D object reconstruction model from daily hand-object interaction videos. Given partially observed video input, our framework simultaneously completes 2D/3D objects and estimates their poses.
@@ -26,4 +28,4 @@ We introduce ForeHOI, the first feed-forward 3D object reconstruction model from
 - [] Release the training code.
 
 ## Dataset
-Dataset samples are already available on [huggingface](https://huggingface.co/datasets/YuantaoChen/ForeHOI/). The full dataset will be uploaded soon.
+Dataset samples are already available on [huggingface](https://huggingface.co/datasets/YuantaoChen/ForeHOI/). The full dataset will be released following the paper acceptance.
