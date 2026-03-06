@@ -23,9 +23,9 @@ We introduce ForeHOI, the first feed-forward 3D object reconstruction model from
 
 ## 🚧 Todo
 
-- [] Release the ForeHOI dataset upon acceptance.
-- [] Release the inference code upon acceptance.
-- [] Release the training code upon acceptance.
+- [✅] Release the ForeHOI dataset.
+- [] Release the inference code.
+- [] Release the training code.
 
 ## Dataset
 Dataset samples are already available on [huggingface](https://huggingface.co/datasets/YuantaoChen/ForeHOI/). The full dataset will be released following the paper acceptance.
