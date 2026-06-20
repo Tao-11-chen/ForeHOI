@@ -1,0 +1,28 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+build/
+dist/
+*.so
+*.o
+*.whl
+
+# ---- Logs & outputs ----
+*.log
+output_wild/
+fpose/
+
+# ---- Model checkpoints & weights (large binaries) ----
+# weights/ is ignored wholesale; small .yaml configs in checkpoints/ stay tracked.
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+*.h5
+*.npz
+weights/
