@@ -85,7 +85,16 @@ Two Gradio apps reconstruct the held object from a hand-object video and produce
 ```bash
 python app_forehoi_sam3d.py   # our trained ForeHOI model   ->  http://localhost:7865
 python app_mv_sam3d.py        # MV-SAM3D baseline            ->  http://localhost:7866
+python app_forehoi_fm_sam3d.py  # feature-matching pose variant ->  http://localhost:7867
 ```
+
+`app_forehoi_fm_sam3d.py` replaces the FoundationPose pose backend with MASt3R
+feature matching (coarse viewpoint search + PnP tracking, vendored under
+`wheels/mast3r` + `wheels/dust3r`). It needs **no FoundationPose weights** — the
+MASt3R checkpoint (`naver/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric`,
+CC BY-NC-SA 4.0) is auto-downloaded from the Hugging Face hub on first run. It
+tends to work best on textured objects; weakly-textured objects are better
+served by the FoundationPose apps.
 
 **Sample videos.** Six ready-to-use hand-object clips are provided in [`test_data/`](test_data) (`wild1.mp4` … `wild6.mp4`) — drop one into the **Upload Video** box to try the app without your own footage.
 
